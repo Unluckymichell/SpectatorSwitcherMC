@@ -1,0 +1,25 @@
+name: SpectatorSwitcher
+version: '${project.version}'
+main: de.kimicraft.spectatorswitcher.SpectatorSwitcher
+api-version: 1.19
+authors: [ Unluckymichell, SamyPro ]
+description: A Plugin
+website: mischael.dev
+
+commands:
+  s:
+    description: Toggle gamemode between spectator and survival
+    usage: |
+      LOLroflBLOCKitemERROR
+      If you see this! You are lucky (and I failed)
+    aliases: [spectator, spec, survival, sur]
+
+  spectatorSwitcherSave:
+    description: DEBUG
+    usage: DEBUG
+    aliases: []
+
+permissions:
+  spectatorswitcher.cmd.s:
+    description: roflk
+    default: true
